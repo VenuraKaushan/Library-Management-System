@@ -2,8 +2,9 @@ import Books from "../models/books.modal.js";
 
 export const getAllBooks = (req, res) => {
     try {
-        console.log("weda")
+        console.log("get all weda")
 
+        res.status(200)
     } catch (err) {
 
     }
@@ -11,7 +12,7 @@ export const getAllBooks = (req, res) => {
 
 export const addBook = (req, res) => {
     try {
-        console.log("weda")
+        console.log("add book weda")
 
     } catch (err) {
 
